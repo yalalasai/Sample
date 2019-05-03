@@ -198,5 +198,17 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>vm-cnd-dmo-dopw-releases</name>
+        <url>http://localhost:8081/artifactory/Jenkins-integration</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>vm-cnd-dmo-dopw-snapshots</name>
+        <url>http://localhost:8081/artifactory/Jenkins-integration</url>
+    </snapshotRepository>
+</distributionManagement>
 	<name>simple-web-app</name>
 </project>
