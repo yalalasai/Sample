@@ -198,7 +198,7 @@
 			</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
+	<!--<distributionManagement>
     <repository>
         <id>central</id>
         <name>vm-cnd-dmo-dopw-releases</name>
@@ -209,6 +209,6 @@
         <name>vm-cnd-dmo-dopw-snapshots</name>
         <url>http://localhost:8081/artifactory/Jenkins-integration</url>
     </snapshotRepository>
-</distributionManagement>
+</distributionManagement> -->
 	<name>simple-web-app</name>
 </project>
